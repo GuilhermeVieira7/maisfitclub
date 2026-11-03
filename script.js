@@ -17,27 +17,27 @@
 
   // Modalidades. coletiva: true → no Fit Especial só aos sábados e datas comemorativas.
   const CATEGORIAS = [
-    { id: "musc", nome: "Musculação", img: "assets/e-musculacao.webp", itens: [
+    { id: "musc", nome: "Musculação", img: "assets/e-musculacao.jpg", itens: [
       { n: "Musculação", coletiva: false, d: "Treino planejado no seu ritmo, com equipamentos modernos e acompanhamento.", b: ["Ganho de força e massa muscular", "Treino montado pra o seu objetivo"] },
     ]},
-    { id: "cross", nome: "Cross & funcional", img: "assets/m-crossfit.webp", itens: [
+    { id: "cross", nome: "Cross & funcional", img: "assets/m-crossfit.jpg", itens: [
       { n: "CrossFit", coletiva: true, d: "Treinos de alta intensidade em turma.", b: ["Condicionamento e força", "Energia de grupo"] },
       { n: "Cross Training", coletiva: true, d: "Força e condicionamento com movimentos funcionais.", b: ["Resistência", "Corpo mais preparado"] },
       { n: "Funcional", coletiva: true, d: "Movimentos do dia a dia, corpo inteiro.", b: ["Mobilidade e equilíbrio", "Gasto calórico"] },
       { n: "Func. Kids", coletiva: true, d: "Funcional pensado para a criançada.", b: ["Coordenação motora", "Atividade física divertida"] },
     ]},
-    { id: "cardio", nome: "Cardio", img: "assets/m-spinning.webp", itens: [
+    { id: "cardio", nome: "Cardio", img: "assets/m-spinning.jpg", itens: [
       { n: "Spinning", coletiva: true, d: "Bike indoor, música e muita energia.", b: ["Condicionamento cardiovascular", "Alto gasto calórico"] },
       { n: "Jump", coletiva: true, d: "Cardio no mini trampolim.", b: ["Fôlego", "Pernas e glúteos fortes"] },
       { n: "Step", coletiva: true, d: "Coreografia na plataforma.", b: ["Coordenação", "Resistência"] },
       { n: "Rit Box", coletiva: true, d: "Movimentos de luta no ritmo da música.", b: ["Cardio intenso", "Alívio do estresse"] },
     ]},
-    { id: "local", nome: "Pilates & localizadas", img: "assets/m-coletiva.webp", itens: [
+    { id: "local", nome: "Pilates & localizadas", img: "assets/m-coletiva.jpg", itens: [
       { n: "Pilates", coletiva: true, d: "Controle, postura e mobilidade.", b: ["Core forte", "Melhora da postura"] },
       { n: "GAP", coletiva: true, d: "Glúteos, abdômen e pernas.", b: ["Tonificação", "Treino focado"] },
       { n: "ABS", coletiva: true, d: "Treino de abdômen.", b: ["Core fortalecido", "Abdômen definido"] },
     ]},
-    { id: "danca", nome: "Dança & luta", img: "assets/m-fitdance.webp", itens: [
+    { id: "danca", nome: "Dança & luta", img: "assets/m-fitdance.jpg", itens: [
       { n: "Fit Dance", coletiva: true, d: "Coreografias animadas pra suar sem perceber.", b: ["Diversão e gasto calórico", "Coordenação"] },
       { n: "Muay Thai", coletiva: true, d: "Técnica, condicionamento e disciplina.", b: ["Defesa pessoal", "Força e resistência"] },
     ]},
@@ -46,10 +46,10 @@
   const AVALIACAO = [
     { t: "Bioimpedância", d: "Composição corporal: gordura, músculo e água." },
     { t: "Perimetria", d: "Circunferências do corpo para acompanhar a evolução." },
-    { t: "Dobras cutâneas", d: "Percentual de gordura com adipômetro.", img: "assets/av-dobras.webp" },
-    { t: "Dinamômetro", d: "Mede a força muscular.", img: "assets/av-dinamometro.webp" },
-    { t: "Banco de Wells e flexiteste", d: "Flexibilidade dos músculos e das articulações.", img: "assets/av-flexiteste.webp" },
-    { t: "Resultados e explicação", d: "O avaliador entrega e explica o seu desempenho.", img: "assets/e-professor.webp" },
+    { t: "Dobras cutâneas", d: "Percentual de gordura com adipômetro.", img: "assets/av-dobras.jpg" },
+    { t: "Dinamômetro", d: "Mede a força muscular.", img: "assets/av-dinamometro.jpg" },
+    { t: "Banco de Wells e flexiteste", d: "Flexibilidade dos músculos e das articulações.", img: "assets/av-flexiteste.jpg" },
+    { t: "Resultados e explicação", d: "O avaliador entrega e explica o seu desempenho.", img: "assets/e-professor.jpg" },
   ];
 
   // Horário de acesso do Fit Livre (minutos). 0 = domingo.

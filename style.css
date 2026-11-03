@@ -39,9 +39,9 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 .violet { color: var(--violet); }
 
 /* ---------- tipografia ---------- */
-.display { margin: 0; font: italic 900 clamp(46px, 6.6vw, 100px)/.88 var(--f-d); text-transform: uppercase; color: var(--ink); }
+.display { margin: 0; font: italic 900 clamp(46px, 6.6vw, 100px)/1 var(--f-d); text-transform: uppercase; color: var(--ink); }
 .display--light { color: #fff; }
-.mark { background: var(--cyan); color: var(--ink); padding: 0 .1em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.mark { background: var(--cyan); color: var(--ink); padding: 0 .12em; line-height: 1.12; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .lead { margin: 18px 0 0; color: var(--text-2); max-width: 52ch; font-size: clamp(15px, 1.15vw, 17px); }
 .lead--light { color: rgba(255, 255, 255, .75); }
 .fine { margin: 18px 0 0; font-size: 13px; color: var(--muted); }
