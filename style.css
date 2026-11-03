@@ -494,3 +494,11 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* vídeos: posição absoluta (iOS ignora height:100% em itens de grid) e só aparecem quando tocando */
+.hero__frame, .b--tall, .phone { position: relative; }
+.vposter, .hero__frame video, .b video, .phone video { position: absolute; inset: 0; width: 100% !important; height: 100% !important; object-fit: cover; }
+.hero__frame video, .b video, .phone video { opacity: 0; transition: opacity .4s; background: transparent; }
+video.is-playing { opacity: 1; }
+
+.b--tall figcaption { top: 14px !important; bottom: auto !important; }

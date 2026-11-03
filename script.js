@@ -231,5 +231,10 @@
     el.style.transitionDelay = `${Math.min(sib.indexOf(el), 5) * 60}ms`;
     io.observe(el);
   });
+  document.querySelectorAll("video").forEach((v) => {
+    const on = () => v.classList.add("is-playing");
+    v.addEventListener("playing", on);
+    if (!v.paused && v.readyState > 2) on();
+  });
   $("ano").textContent = new Date().getFullYear();
 })();
